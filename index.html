@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doceria Sabor de Candeias</title>
+  <!-- CSS: ligado dentro do head -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOPO DA PÁGINA -->
+  <header>
+    <h1>Doceria Sabor de Candeias</h1>
+    <nav>
+      <a href="#produtos">Produtos</a>
+      <a href="#pedido">Fazer pedido</a>
+    </nav>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main>
+
+    <section id="produtos">
+      <h2>Nossos doces</h2>
+
+      <div class="produtos">
+        <div class="card">
+          <img src="img/bolo.jpg" alt="Bolo de chocolate">
+          <h3>Bolo de chocolate</h3>
+          <p>R$ 45,00</p>
+        </div>
+
+        <div class="card">
+          <img src="img/brigadeiro.jpg" alt="Caixa de brigadeiros">
+          <h3>Brigadeiros (cento)</h3>
+          <p>R$ 90,00</p>
+        </div>
+
+        <div class="card">
+          <img src="img/torta.jpg" alt="Torta de limão">
+          <h3>Torta de limão</h3>
+          <p>R$ 50,00</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pedido">
+      <h2>Fazer pedido</h2>
+      <p>Horário: segunda a sábado, das 8h às 18h.</p>
+
+      <ul>
+        <li>Pedidos com 1 dia de antecedência</li>
+        <li>Entrega em Candeias</li>
+      </ul>
+
+      <input type="text" id="nome" placeholder="Digite seu nome">
+      <button id="enviar">Enviar pedido</button>
+      <p id="mensagem"></p>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p>© 2026 Doceria Sabor de Candeias</p>
+  </footer>
+
+  <!-- JS: ligado no final do body -->
+  <script src="script.js"></script>
+</body>
+</html>
